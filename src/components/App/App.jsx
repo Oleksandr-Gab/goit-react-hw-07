@@ -4,7 +4,7 @@ import ContactForm from "../ContactForm/ContactForm";
 
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { fetchContacts } from "../../redux/contactAPI";
+import { fetchContacts } from "../../redux/contactsOps";
 import { selectError, selectLoading } from "../../redux/contactsSlice";
 import toast, { Toaster } from "react-hot-toast";
 
